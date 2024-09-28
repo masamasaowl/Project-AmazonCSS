@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    border: border-box; 
+    /* this includes the border into the div so no extra lenght is occupied */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: aliceblue;
+    display: flex;
+    /* all div come in same line */
+    align-items: center;
+    /* they are always in the center of the navbar */
+    justify-content: space-evenly;
+    /* all items are spread evenly */
+}
+.navlogo{
+    height: 50px;
+    width: 103px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+    /* this is a must use tag when adding an image  */
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 4px;
+    /* creating a transparent border */
+}
+.border:hover{
+    border: 2px solid rgb(248, 240, 240);
+     /* when we hover over the all elements with the border class then a white border would appear */
+}
+.nav-deliver{
+    color: #ccc; 
+    font-size: 0.8rem;
+    /* font size is in rem so if the width changes then it also changes wrt to the parent  */
+    margin-left: 12px;
+}
+.nav-india{
+    margin-left: 3px;
+    font-weight: 700;
+
+}
+.pinicon{
+    display: flex;
+    align-items: center;
+    /* so india and the icon are in the same line */
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    /* distributes content equally */
+    background-color: darkorange;
+    border-radius: 4px;
+    width: 620px;
+    height: 40px;
+}
+
+.dropdown{
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius:4px ;
+    /* helps adding specific borders */
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.searchbar{
+    width: 100%;
+    /* it occupies all area available in flexbox */ 
+    font-size: 1.05rem;
+    border: none;
+    transition: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #f8b261;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+} 
+.navsearch:hover{
+    border: 2px solid orange;
+    /* creates a highlight when we hover */
+}
+.navsignin{
+    font-size: 0.7rem;
+}
+.navaccount{
+    font-size: 0.85rem;
+    font-weight: 700;
+    /* so it appears bolder */  
+}
+.navcart{
+    display: flex;
+    align-items: baseline;
+}
+.carticon{
+    font-size: 30px;
+}
+.carttext{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* succesfully styled the navbar */
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;   
+    height: 40px;
+    color: #f3f3f3;
+    
+}
+.paneloptions p{
+    /* this is a new feature in a class we can tag specific elements and style them */
+    display: inline;
+    padding: 8px 9px 8px 9px;
+    font-size: 0.9rem;
+}
+.paneloptions{
+    /* this would work on the second div of the panel */
+    width: 80%;
+    /* as we noticed that it occupies a lot of space */
+}
+.panelshop{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.panelall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.allicon{
+    font-size: 1.2rem;
+}
+.alltext{
+    margin: 4px;
+    font-size: 0.9rem;
+}
+
+/* navpanel done now lets go to hero section of the website */
+
+.herosection{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    /* we reduce size of image as making the blur effects and element float is a little complicated */
+    height: 310px;
+    /* we give it display flex for controlling the infobox */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+}
+.infobox{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 97%;
+    /* we were thinking about giving this box a position fro bottom but now we would a create a flexbox which would provide better control */
+    margin-bottom: 25px;
+}
+.infobox a{
+    /* i noticed that addign style in infobox only changes the struture of div for speciic property i selected <a> */
+    text-decoration: none;
+    color: #007185;
+}

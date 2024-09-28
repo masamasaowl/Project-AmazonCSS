@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- this is the link copied from cdnjs.com it has connected us to the cloud library of fontawesome which helps us use multiple icons -->
+    <link rel="stylesheet" href="AMAZON.css">
+    <!-- link the CSS file -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!-- this is the outermost div the black background -->
+            <div class="navlogo border">
+                <!-- this helps us contain our amazon logo -->
+                <div class="logo"></div>
+                <!-- this is the actual image -->
+            </div>
+            <div class="navadress border">
+                <p class="nav-deliver">Deliver To</p>
+                <div class="pinicon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <!-- this is the location icon from fontawesome -->
+                <p class="nav-india">India</p>
+                <!-- creating the deliver to india element -->
+                </div>
+        </div>
+        <div class="navsearch ">
+            <!-- this is the search bar -->
+            <select class="dropdown">
+                <option value="">All</option>
+                <option value="">Electronics</option>
+                <option value="">Clothings</option>
+                <option value="">Books</option>
+                <option value="">Prime Plus</option>
+            </select>
+            <!-- the drop down menu -->
+            <input class="searchbar" placeholder="Search Amazon" type="text">
+            <!-- search bar -->
+            <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i>
+                <!-- the magnifying glass icon -->
+            </div>
+            <!-- we created this div only so a class can be given to the icon,adding class direcly can give errors -->
+        </div>
+        <div class="navsignin border">
+            <p class="navsignin"> <span>Hello, Sign in</span></p>
+            <p class="navaccount">Account & Lists</p>
+        </div>
+        <div class="navorders border">
+            <!-- we copy the above box as it has same style  -->
+            <p class="navsignin"> <span>Returns</span></p>
+            <p class="navaccount">& Orders</p>
+        </div>
+        <!-- the add to cart -->
+        <div class="navcart">
+            <div class="carticon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <p class="carttext">Cart</p>
+        </div>
+        </div>
+
+        <!-- navbar is made -->
+        <!-- now moving on to navpanel -->
+
+        <div class="panel">
+            <div class="panelall">
+                <div class="allicon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <p class="alltext">All</p>
+            </div>  
+            <div class="paneloptions">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panelshop">
+                Shop deals in Electronics
+            </div>
+        </div>
+
+        <!-- panel is made now comes the hero section -->
+
+        <div class="herosection">
+            <div class="infobox">
+                <pre>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. </pre><a href="https://www.amazon.com/"> Click here to go to amazon.in</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
