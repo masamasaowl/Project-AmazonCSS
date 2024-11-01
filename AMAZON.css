@@ -20,7 +20,7 @@
     width: 103px;
 }
 .logo{
-    background-image: url(../amazon_logo.png);
+    background-image: url(amazon_logo.png);
     height: 60px;
     width: 100%;
     background-size: cover;
@@ -155,7 +155,7 @@
 /* navpanel done now lets go to hero section of the website */
 
 .herosection{
-    background-image: url(../hero_image.jpg);
+    background-image: url(hero_image.jpg);
     background-size: cover;
     /* we reduce size of image as making the blur effects and element float is a little complicated */
     height: 310px;
@@ -255,7 +255,7 @@ footer{
     border-top: 0.0001px solid rgb(76, 83, 89);
 }
 .footlogo{
-    background-image: url(../amazon_logo.png);
+    background-image: url(amazon_logo.png);
     height: 60px;
     width: 120px;
     background-size: cover;
